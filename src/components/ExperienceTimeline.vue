@@ -20,17 +20,18 @@
         Web Developer/Volunteer
       </h6>
       <span>
-        Frontida Zois Initiative
+        Frontida Zois Initiative (May 2020)
       </span> 
     </a-timeline-item>
+
     <a-timeline-item color="red">
-      <a-icon slot="dot" type="clock-circle-o" style="font-size: 16px;" />
-      <h6>Front</h6>
-      <span>Chiptranz Systems</span>
+      <a-icon slot="dot" type="clock-circle-o"/>
+      <h6>Frontend role</h6>
+      <span>Chiptranz Systems (Present) </span>
     </a-timeline-item>
+
     <a-timeline-item color="green"> 
       <a-icon slot="dot" type="usergroup-delete" />
-      <!-- <a-icon type="code" /> -->
       <h6>
         Member
       </h6>
