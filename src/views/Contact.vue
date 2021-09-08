@@ -2,7 +2,7 @@
   <div>
     <b-container class="bv-example-row">
       <b-row>
-        <b-col class="text-left" style="padding-right:50px">
+        <b-col class="text-left" style="padding-right:50px" sm="6">
           <div class="left-header">
             <h2> Just say hi.</h2>
             <span>I'm always open to discuss your project and talk about new things.</span>
@@ -26,7 +26,7 @@
             </b-row>
           </div>
         </b-col>
-        <b-col>
+        <b-col sm="6">
           <div class="form">
             <ReachOutForm />
           </div>

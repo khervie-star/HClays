@@ -1,20 +1,20 @@
 <template>
     <div>
       <b-container fluid style="padding: 10px 50px;">
-        <div class="text-left experience" > 
-          <span >Education, </span><br /><span>Work Experience, </span><span style="font-size: 20px">and </span><span>Skills</span><br />
+        <div class="text-left experience"> 
+          <span >Education, </span><br /><span>Work Experience, </span><span style="font-size: 17px">and </span><span>Skills</span><br />
         </div>
         <div class="text-left">
           <p style="width:60vw;">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta veniam placeat debitis excepturi maxime itaque reiciendis praesentium quam, suscipit temporibus ipsa, dolor nobis repellendus ullam et ea ut! Mollitia, exercitationem?
+            Summary of my work experiences, volunteer experiences, education and projetcs done.
           </p>
         </div>
         <b-row>
-          <b-col class="text-left" cols="4"> 
+          <b-col class="text-left" md="6"> 
             <experience-timeline />    
           </b-col>
           <b-col>
-            <other-skilss  />
+            <other-skilss  md="6"/>
           </b-col>
         </b-row>
       </b-container>
@@ -40,7 +40,7 @@ export default class Experience extends Vue {}
 .experience{
   position: relative;
   font-weight: bold !important;
-  font-size: 50px !important;
+  font-size: 35px !important;
   opacity: 0.8;
 }
 .perks{
