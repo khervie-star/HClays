@@ -12,15 +12,17 @@
             <li data-menuanchor="experience"><a href="#experience">Experience</a></li>
             <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
             </div>
-        </ul>
 
+            <a-icon type="menu" class="drawer" @click="showDrawer"/>
+        </ul>
+    
     <div class="menu-drawer">
-    <a-icon type="menu" @click="showDrawer"/>
     <a-drawer
-      title="Basic Drawer"
-      :placement="right"
-      :closable="false"
+      title="KHERVIE00"
+      placement="right"
+      :closable="true"
       :visible="visible"
+      :after-visible-change="afterVisibleChange"
       @close="onClose"
     >
         <ul id="side-menu">
@@ -57,6 +59,7 @@ import Profile from "@/views/Profile.vue"
 import Experience from "@/views/Experience.vue"
 import Contact from "@/views/Contact.vue"
 
+
   export default {
     name: 'app',
 
@@ -69,8 +72,7 @@ import Contact from "@/views/Contact.vue"
     data () {
       return {
          visible: false,
-        placement: 'left',
-        options: {
+          options: {
           licenseKey: 'YOUR_KEY_HERE',
           afterLoad: this.afterLoad,
           scrollOverflow: true,
@@ -80,10 +82,13 @@ import Contact from "@/views/Contact.vue"
           anchors: ['overview', 'services', 'experience', 'contact'],
         //   sectionsColor: ['#41b883', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
         }
-      }
+      };
     },
 
     methods: {
+    afterVisibleChange(val) {
+      console.log('visible', val);
+    },
     showDrawer() {
       this.visible = true;
     },
@@ -151,7 +156,7 @@ import Contact from "@/views/Contact.vue"
         this.options.scrollBar = !this.options.scrollBar
       }
     }
-  }
+  };
 </script>
 
 <style>
@@ -172,7 +177,7 @@ import Contact from "@/views/Contact.vue"
     }
 
     .menu-drawer{
-      display: none;
+      /* display: none; */
     }
 
 @media (max-width:576px) {
@@ -196,5 +201,44 @@ import Contact from "@/views/Contact.vue"
     display: none;
   }
 }
+.drawer{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  /* margin: 30px; */
+}
+  .drawer svg{
+    width: 1.4em !important;
+    height: 1.4em !important;
+    /* padding: 30px; */
+  }
+
+  #side-menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #side-menu li{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: red;
+    text-decoration: none;
+  }
+
+    #side-menu li a{
+      color: #121212;
+      opacity: .7;
+      text-decoration: none;
+      font-family: "Rubik", Helvetica, Arial, sans-serif;
+    }
+
+    .ant-drawer-title{
+      font-family: "Rubik", Helvetica, Arial, sans-serif;
+      color: #121212;
+      opacity: 0.88888888888888;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
 
 </style>
