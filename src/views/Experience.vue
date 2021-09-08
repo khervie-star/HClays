@@ -5,7 +5,7 @@
           <span >Education, </span><br /><span>Work Experience, </span><span style="font-size: 17px">and </span><span>Skills</span><br />
         </div>
         <div class="text-left">
-          <p style="width:60vw;">
+          <p style="width:60vw; color:#121212; opacity:.8;">
             Summary of my work experiences, volunteer experiences, education and projetcs done.
           </p>
         </div>
