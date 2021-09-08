@@ -7,10 +7,10 @@
               </a>
             </li>
             <div>
-            <li data-menuanchor="page1" class="active"><a href="#page1">Overview</a></li>
-            <li data-menuanchor="page2"><a href="#page2">Services</a></li>
-            <li data-menuanchor="page3"><a href="#page3">Experience</a></li>
-            <li data-menuanchor="page4"><a href="#page4">Contact</a></li>
+            <li data-menuanchor="overview" class="active"><a href="#overview">Overview</a></li>
+            <li data-menuanchor="services"><a href="#services">Services</a></li>
+            <li data-menuanchor="experience"><a href="#experience">Experience</a></li>
+            <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
             </div>
         </ul>
 
@@ -24,10 +24,10 @@
       @close="onClose"
     >
         <ul id="side-menu">
-            <li data-menuanchor="page1" class="active"><a href="#page1">Overview</a></li>
-            <li data-menuanchor="page2"><a href="#page2">Services</a></li>
-            <li data-menuanchor="page3"><a href="#page3">Experience</a></li>
-            <li data-menuanchor="page4"><a href="#page4">Contact</a></li>
+            <li data-menuanchor="overview" class="active"><a href="#overview">Overview</a></li>
+            <li data-menuanchor="page2"><a href="#services">Services</a></li>
+            <li data-menuanchor="page3"><a href="#experience">Experience</a></li>
+            <li data-menuanchor="page4"><a href="#contact">Contact</a></li>
         </ul>
     </a-drawer>
   </div>    
@@ -77,7 +77,7 @@ import Contact from "@/views/Contact.vue"
           scrollBar: false,
           menu: '#menu',
           navigation: true,
-          anchors: ['page1', 'page2', 'page3', 'page4'],
+          anchors: ['overview', 'services', 'experience', 'contact'],
         //   sectionsColor: ['#41b883', '#ff5f45', '#0798ec', '#fec401', '#1bcee6', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
         }
       }

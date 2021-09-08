@@ -49,6 +49,7 @@
             </g>
             </svg>
         </div>
+        <span>Nothing to see here...(Now)</span>
     </div>
 </template>
 
@@ -70,8 +71,8 @@ export default {
 } */
 
 svg {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
 }
 
 /* SMOKE */
