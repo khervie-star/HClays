@@ -1,6 +1,6 @@
 <template>
     <div>
-      <b-container fluid style="padding: 10px 50px;">
+      <b-container class="containerr" fluid style="padding: 10px 50px;">
         <div class="text-left experience"> 
           <span >Education, </span><br /><span>Work Experience, </span><span style="font-size:17px">and </span><span>Skills</span><br />
         </div>
@@ -37,10 +37,15 @@ export default class Experience extends Vue {}
 </script>
 
 <style scoped>
+ @media (max-width: 575px) {  
+   .containerr{
+     margin-top: 90px;
+   }
+ }
 .experience{
   position: relative;
   font-weight: bold !important;
-  font-size: 45px !important;
+  font-size: 38px !important;
   opacity: 0.8;
 }
 .perks{

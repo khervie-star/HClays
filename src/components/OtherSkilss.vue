@@ -49,7 +49,7 @@
             </g>
             </svg>
         </div>
-        <span>Nothing to see here...(Now)</span>
+        <span style="opacity:0.35; ">Nothing to see here...(Now)</span>
     </div>
 </template>
 
