@@ -8,13 +8,13 @@
         </h6>
         <span> University of Ibadan   </span>
       </a-timeline-item>
-      <a-timeline-item color="green"> 
+      <!-- <a-timeline-item color="green"> 
         <a-icon slot="dot" type="edit" />
         <h6>
           High School Degree
         </h6>
         <span> University of Ibadan University of Ibadan</span>
-      </a-timeline-item>
+      </a-timeline-item> -->
       <a-timeline-item color="blue">
         <a-icon  slot="dot" type="code" /> 
         <h6>
