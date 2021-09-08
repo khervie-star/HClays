@@ -9,7 +9,7 @@
                         <p style="opacity: 0.65">I am a budding developer with proper knowledge in JavaScript and other JavaScript frameworks. With that I build responsive and scalable websites and apllications to client satisfaction.</p>
                     </div>
                     <div>
-                        <b-button class="get-resume" variant="outline-primary" >Download Resume <b-icon-download /></b-button>
+                        <b-button class="get-resume" variant="outline-primary" ><a href="https://drive.google.com/file/d/12nWlWP1eKhGhVU_zx0ViRcTEW2GyRECp/view?usp=sharing">Get Resume <b-icon-download style="font-size: 10px;" /></a></b-button>
                     </div>
                 </b-col>
                 <b-col></b-col>
@@ -72,11 +72,23 @@ export default class HeaderBody extends Vue {}
     border-color:#121212 !important; 
     color: inherit !important;
     margin-left: 0px !important;
+    // background: #121212;
+    // color: #fafafa;
 }
+     .get-resume{
+         width:200px;
+     }
+     .get-resume a{
+        color: #121212;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+     }
 .name{
     font-weight: bold; 
     font-size: 50px;
 }
+
 
   /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575px) { 

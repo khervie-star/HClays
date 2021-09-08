@@ -43,7 +43,7 @@ export default {
       paths: [
          {
             name: "Web Development",
-            text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...",
+            text: "Intermediate level web developer with vast knowledge and usage of JavaScript and JavaScript frameworks to build SWAs and PWAs to a standard scale ..",
             icon: require("../assets/icons/pngs/full-stack-developer.png"),
         },
          {

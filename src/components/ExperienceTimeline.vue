@@ -21,7 +21,7 @@
           Web Developer/Volunteer
         </h6>
         <span>
-          University of Ibadan University of Ibadan 
+          Frontida Zois Initiative 
         </span> 
       </a-timeline-item>
       <a-timeline-item color="red">
